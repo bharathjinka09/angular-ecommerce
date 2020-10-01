@@ -47,12 +47,12 @@
 <hr />
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
-      <div
-        class="col-md-4 col-centered"
-        *ngFor="let product of products; let i = index"
-      >
-        <div class="card card-block">
+    <div
+      class="col-md-4 col-centered"
+      *ngFor="let product of products; let i = index"
+    >
+      <div class="card card-block">
+        <div class="card-body">
           <img [src]="product.img" alt="image" class="custom-image-style" />
           <div class="product-desc-container row">
             <div class="container">
